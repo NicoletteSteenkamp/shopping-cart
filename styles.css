@@ -179,6 +179,9 @@ i {
   .shop {
     grid-template-columns: repeat(2, 223px);
   }
+  .form-signin {
+    max-width: 80%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -188,5 +191,25 @@ i {
   }
   .shop {
     grid-template-columns: repeat(1, 223px);
+  }
+  .form-signin {
+    max-width: 100%;
+  }
+
+  .form-signin img {
+    width: 50px;
+  }
+
+  .form-floating label,
+  .form-floating input {
+    font-size: 14px;
+  }
+
+  .form-signin h1 {
+    font-size: 24px;
+  }
+
+  .form-signin button {
+    font-size: 16px;
   }
 }
